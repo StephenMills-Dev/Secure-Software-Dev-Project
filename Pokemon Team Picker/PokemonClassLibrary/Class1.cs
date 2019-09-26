@@ -6,7 +6,25 @@ using System.Threading.Tasks;
 
 namespace PokemonClassLibrary
 {
-    public class Class1
+    public class Entity
     {
+        public string name;
+        public string health;
+        public int age;
+    }
+
+    public class Pokemon : Entity
+    {
+        public int dexNumber;
+        public int attack;
+        public int defence;
+        public int spcAttack;
+        public int spcDefence;
+        public int speed;
+    }
+
+    public class Pokedex : Pokemon
+    {
+
     }
 }
