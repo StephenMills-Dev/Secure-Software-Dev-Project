@@ -8,12 +8,16 @@ namespace Pokemon_Team_Picker
 {
     class Program
     {
+
+        #region-class level variables-
         public static bool bigHeading;
-        public static bool correctDetails;
-        public static string userRoal;
+        private static bool correctDetails;
+        private static string userRoal;
+        #endregion
+
         static void Main(string[] args)
         {
-            bigHeading = false;
+            bigHeading = true;
             Title();
             do
             {
@@ -26,6 +30,8 @@ namespace Pokemon_Team_Picker
             } while (!correctDetails);
             
         }
+
+
         //pritns title for the app
         static void Title()
         {
@@ -40,15 +46,15 @@ namespace Pokemon_Team_Picker
             //use to repeat charaters.
             if (bigHeading)
             {
-                Console.WriteLine(new string('*', 50));
+                Console.WriteLine(new string('*', 55));
                 Console.WriteLine();
-                Console.WriteLine("*****  *****  *  *  ****  **   **  *****  **    *");
-                Console.WriteLine("*   *  *   *  * *   *     * * * *  *   *  * *   *");
-                Console.WriteLine("*****  *   *  **    ***   *  *  *  *   *  *  *  *");
-                Console.WriteLine("*      *   *  * *   *     *     *  *   *  *   * *");
+                Console.WriteLine("   *****  *****  *  *  ****  **   **  *****  **    *");
+                Console.WriteLine("   *   *  *   *  * *   *     * * * *  *   *  * *   *");
+                Console.WriteLine("  *****  *   *  **    ***   *  *  *  *   *  *  *  *");
+                Console.WriteLine(" *      *   *  * *   *     *     *  *   *  *   * *");
                 Console.WriteLine("*      *****  *  *  ****  *     *  *****  *    **");
                 Console.WriteLine();
-                Console.WriteLine(new string('*', 50));
+                Console.WriteLine(new string('*', 55));
             }
             else
             {
@@ -59,6 +65,8 @@ namespace Pokemon_Team_Picker
                 Console.WriteLine(new string('*', 50));
             }
         }
+
+        #region-login & authenticate methods-
         //gets the sign in details
         static string[] RequestDetails()
         {
@@ -128,8 +136,8 @@ namespace Pokemon_Team_Picker
                 }
             }
         }
-
-        public static string GetFileLines()
+        // used to get all the users stored in a text file.
+        private static string GetFileLines()
         {
             string lineIn;
             using (System.IO.StreamReader file =
@@ -139,7 +147,10 @@ namespace Pokemon_Team_Picker
             }
             return lineIn;
         }
+        #endregion
 
+        #region-appBody Methods-
+        // used for displaying the body of the app with additions based on the users roal. admin will alow the ussrs to see more and proforem differernt operations.
         static void AppBody()
         {
             if (userRoal == "admin")
@@ -161,5 +172,6 @@ namespace Pokemon_Team_Picker
         {
 
         }
+        #endregion
     }
 }
