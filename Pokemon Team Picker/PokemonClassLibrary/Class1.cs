@@ -51,12 +51,28 @@ namespace PokemonClassLibrary
         readonly Pokemon charizard = new Pokemon(006,12,14,13,15,13, "Spits fire that is hot enough to melt boulders. Known to cause forest fires unintentionally.", "charizard", 10,0);
 
         // second repeated 6
-        readonly Pokemon squirtle = new Pokemon(001, 5, 4, 6, 4, 3, "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.", "squirtle", 10, 0);
-        readonly Pokemon wartortle = new Pokemon(002, 10, 16, 12, 13, 11, "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.", "wartortle", 9, 0);
-        readonly Pokemon blastoise = new Pokemon(003, 25, 30, 28, 29, 19, "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.", "blastoise", 11, 0);
-        readonly Pokemon caterpie = new Pokemon(004, 5, 4, 6, 4, 3, "	Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.", "caterpie", 10, 0);
-        readonly Pokemon metapod = new Pokemon(005, 12, 14, 13, 15, 14, "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.", "metapod", 10, 0);
-        readonly Pokemon butterfree = new Pokemon(006, 12, 14, 13, 15, 13, "In battle, it flaps its wings at high speed to release highly toxic dust into the air.", "butterfree", 10, 0);
+        readonly Pokemon squirtle = new Pokemon(007, 5, 4, 6, 4, 3, "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.", "squirtle", 10, 0);
+        readonly Pokemon wartortle = new Pokemon(008, 10, 16, 12, 13, 11, "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.", "wartortle", 9, 0);
+        readonly Pokemon blastoise = new Pokemon(009, 25, 30, 28, 29, 19, "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.", "blastoise", 11, 0);
+        readonly Pokemon caterpie = new Pokemon(010, 5, 4, 6, 4, 3, "	Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.", "caterpie", 10, 0);
+        readonly Pokemon metapod = new Pokemon(011, 12, 14, 13, 15, 14, "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.", "metapod", 10, 0);
+        readonly Pokemon butterfree = new Pokemon(012, 12, 14, 13, 15, 13, "In battle, it flaps its wings at high speed to release highly toxic dust into the air.", "butterfree", 10, 0);
+
+        //thired 6
+        readonly Pokemon weedle = new Pokemon(013, 5, 4, 6, 4, 3, "Often found in forests, eating leaves. It has a sharp venomous stinger on its head.", "", 10, 0);
+        readonly Pokemon kakuna = new Pokemon(014, 10, 16, 12, 13, 11, "Almost incapable of moving, this Pokémon can only harden its shell to protect itself from predators.", "", 9, 0);
+        readonly Pokemon beedrill = new Pokemon(015, 25, 30, 28, 29, 19, "Flies at high speed and attacks using its large venomous stingers on its forelegs and tail.", "", 11, 0);
+        readonly Pokemon pidgey = new Pokemon(016, 5, 4, 6, 4, 3, "	A common sight in forests and woods. It flaps its wings at ground level to kick up blinding sand.", "", 10, 0);
+        readonly Pokemon pidgeotto = new Pokemon(017, 12, 14, 13, 15, 14, "	Very protective of its sprawling territorial area, this Pokémon will fiercely peck at any intruder.", "", 10, 0);
+        readonly Pokemon pidgeot = new Pokemon(018, 12, 14, 13, 15, 13, "When hunting, it skims the surface of water at high speed to pick off unwary prey such as Magikarp.", "", 10, 0);
+
+        //forth 6
+        readonly Pokemon ratata = new Pokemon(019, 5, 4, 6, 4, 3, "After birth, its back swells and hardens into a shell. Powerfully sprays foam from its mouth.", "squirtle", 10, 0);
+        readonly Pokemon raticate = new Pokemon(020, 10, 16, 12, 13, 11, "Often hides in water to stalk unwary prey. For swimming fast, it moves its ears to maintain balance.", "wartortle", 9, 0);
+        readonly Pokemon spearow = new Pokemon(021, 25, 30, 28, 29, 19, "A brutal Pokémon with pressurized water jets on its shell. They are used for high speed tackles.", "blastoise", 11, 0);
+        readonly Pokemon fearow = new Pokemon(022, 5, 4, 6, 4, 3, "	Its short feet are tipped with suction pads that enable it to tirelessly climb slopes and walls.", "caterpie", 10, 0);
+        readonly Pokemon ekans = new Pokemon(023, 12, 14, 13, 15, 14, "This Pokémon is vulnerable to attack while its shell is soft, exposing its weak and tender body.", "metapod", 10, 0);
+        readonly Pokemon arbok = new Pokemon(024, 12, 14, 13, 15, 13, "In battle, it flaps its wings at high speed to release highly toxic dust into the air.", "butterfree", 10, 0);
 
         public Pokedex()
         {
@@ -72,6 +88,18 @@ namespace PokemonClassLibrary
             pokemonList.Add(caterpie);
             pokemonList.Add(metapod);
             pokemonList.Add(butterfree);
+            pokemonList.Add(weedle);
+            pokemonList.Add(kakuna);
+            pokemonList.Add(beedrill);
+            pokemonList.Add(pidgey);
+            pokemonList.Add(pidgeotto);
+            pokemonList.Add(pidgeot);
+            pokemonList.Add(ratata);
+            pokemonList.Add(raticate);
+            pokemonList.Add(spearow);
+            pokemonList.Add(fearow);
+            pokemonList.Add(ekans);
+            pokemonList.Add(arbok);
         }
     }
 }
