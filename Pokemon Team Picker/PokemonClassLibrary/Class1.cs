@@ -38,6 +38,8 @@ namespace PokemonClassLibrary
         }
     }
 
+    // pokedex class. this class simply contains a list of 24 pokemon for accessing to add to the team
+    // as you wish.
     class Pokedex
     {
         public List<Pokemon> pokemonList { get; }
