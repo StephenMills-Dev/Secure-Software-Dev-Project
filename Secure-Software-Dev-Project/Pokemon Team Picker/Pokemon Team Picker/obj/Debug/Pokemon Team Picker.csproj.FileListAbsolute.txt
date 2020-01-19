@@ -1,0 +1,14 @@
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.exe.config
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.exe
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.pdb
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.csprojAssemblyReference.cache
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.csproj.CoreCompileInputs.cache
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.exe
+C:\Users\Shirley\Source\Repos\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.pdb
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.exe.config
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.exe
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\bin\Debug\Pokemon Team Picker.pdb
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.csprojAssemblyReference.cache
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.csproj.CoreCompileInputs.cache
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.exe
+C:\Users\Shirley\Desktop\Secure Software snips\Secure-Software-Dev-Project\Pokemon Team Picker\Pokemon Team Picker\obj\Debug\Pokemon Team Picker.pdb
